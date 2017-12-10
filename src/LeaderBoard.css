@@ -1,0 +1,44 @@
+table {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  font-size: 1.4em;
+  padding: 1em;
+  border: 0.1em solid lightgray;
+  border-radius: 0.5em;
+  background-color: #FFF;
+}
+
+table caption {
+  font-size: 1.6rem;
+  margin: 1em 0 1em 0;
+  color: #EEE;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: hsl(0, 0%, 93%);
+}
+
+tbody tr td {
+  padding: 0.8em;
+}
+
+.Item-username {
+  text-align: left;
+}
+
+.Item-username img {
+  float: left;
+  margin-right: 1em;
+}
+
+a {
+  color: darkgreen;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:focus, a:hover {
+  color: #001800;
+  text-decoration: underline;
+}
